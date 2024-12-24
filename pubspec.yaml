@@ -1,0 +1,45 @@
+name: quizadda
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_custom_clippers: ^2.0.0
+  font_awesome_flutter: 10.8.0
+  http: ^1.2.2
+  html_unescape: ^2.0.0
+  auto_size_text: ^3.0.0
+  
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.0.0 
+  firebase_database: 11.2.0 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+          weight: 300
